@@ -10,7 +10,7 @@ from flow.core.params import NetParams
 from flow.core.params import InitialConfig
 from flow.core.params import EnvParams
 from flow.core.params import SumoParams
-from flow.networks import Network
+from flow.scenarios import Scenario
 
 net_params = NetParams(
     template={
@@ -21,10 +21,9 @@ net_params = NetParams(
 
 env_params = EnvParams()
 sim_params = SumoParams(render=True)
-initial_config = InitialConfig()
 vehicles = VehicleParams()
 
-network = Network(
+network = Scenario(
     name='Schloß-Neuhaus',
     net_params=net_params,
     vehicles=vehicles
