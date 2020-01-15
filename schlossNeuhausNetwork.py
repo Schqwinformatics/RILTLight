@@ -10,7 +10,7 @@ from flow.core.params import NetParams
 from flow.core.params import InitialConfig
 from flow.core.params import EnvParams
 from flow.core.params import SumoParams
-from flow.scenarios import Scenario
+from flow.networs import Network
 
 net_params = NetParams(
     template={
