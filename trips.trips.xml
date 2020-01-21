@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/21/20 14:28:30 by Eclipse SUMO duarouter Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="sn_red.net.xml"/>
+        <additional-files value="sn_red.add.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="trips.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="1000.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="passenger1" length="5.00" minGap="1.50" maxSpeed="70.00" probability="0.40" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="passenger" guiShape="passenger/sedan" color="204,51,51" accel="2.6" decel="4.5" sigma="0.5"/>
+    <trip id="0" type="passenger1" depart="0.00" departPos="random" departSpeed="0.00" from="323130960" to="25391547#2"/>
+    <trip id="7" type="passenger1" depart="14.00" departPos="random" departSpeed="0.00" from="-24922964#0" to="edge_14_2"/>
+    <trip id="9" type="passenger1" depart="18.00" departPos="random" departSpeed="0.00" from="398475534#0.42" to="-79577224"/>
+    <trip id="10" type="passenger1" depart="20.00" departPos="random" departSpeed="0.00" from="172307882#1" to="edge_11_1"/>
+    <trip id="15" type="passenger1" depart="30.00" departPos="random" departSpeed="0.00" from="37897348#1" to="gneE125"/>
+    <trip id="16" type="passenger1" depart="32.00" departPos="random" departSpeed="0.00" from="23294169#1.199" to="-37897347#3"/>
+    <trip id="19" type="passenger1" depart="38.00" departPos="random" departSpeed="0.00" from="31105512#4" to="-203063425#0"/>
+    <trip id="21" type="passenger1" depart="42.00" departPos="random" departSpeed="0.00" from="323130960" to="359732195#0"/>
+    <trip id="22" type="passenger1" depart="44.00" departPos="random" departSpeed="0.00" from="323130963" to="-323130955"/>
+    <trip id="25" type="passenger1" depart="50.00" departPos="random" departSpeed="0.00" from="-52760167#1" to="backup_11_2"/>
+    <trip id="29" type="passenger1" depart="58.00" departPos="random" departSpeed="0.00" from="323130965#1" to="edge_3_2"/>
+    <trip id="30" type="passenger1" depart="60.00" departPos="random" departSpeed="0.00" from="-323130963" to="gneE165"/>
+    <trip id="31" type="passenger1" depart="62.00" departPos="random" departSpeed="0.00" from="25726786#5" to="25391547#1"/>
+    <trip id="32" type="passenger1" depart="64.00" departPos="random" departSpeed="0.00" from="79577224" to="-22911947#0"/>
+    <trip id="33" type="passenger1" depart="66.00" departPos="random" departSpeed="0.00" from="24013466#2" to="51575849#0"/>
+    <trip id="35" type="passenger1" depart="70.00" departPos="random" departSpeed="0.00" from="edge_12_1" to="23919029#2"/>
+    <trip id="36" type="passenger1" depart="72.00" departPos="random" departSpeed="0.00" from="52775226#3" to="49978384#5"/>
+    <trip id="38" type="passenger1" depart="76.00" departPos="random" departSpeed="0.00" from="31105512#0" to="-37897347#0"/>
+    <trip id="39" type="passenger1" depart="78.00" departPos="random" departSpeed="0.00" from="-23515281.163" to="-25726786#6"/>
+    <trip id="40" type="passenger1" depart="80.00" departPos="random" departSpeed="0.00" from="-23515274#0.31" to="-31105512#4"/>
+    <trip id="41" type="passenger1" depart="82.00" departPos="random" departSpeed="0.00" from="edge_14_1" to="-31316108#3"/>
+    <trip id="42" type="passenger1" depart="84.00" departPos="random" departSpeed="0.00" from="gneE157" to="edge_18_1"/>
+    <trip id="44" type="passenger1" depart="88.00" departPos="random" departSpeed="0.00" from="172653131#2" to="31316108#1.2"/>
+    <trip id="46" type="passenger1" depart="92.00" departPos="random" departSpeed="0.00" from="172653131#2" to="52081854"/>
+    <trip id="50" type="passenger1" depart="100.00" departPos="random" departSpeed="0.00" from="31316108#4" to="49978384#1"/>
+    <trip id="51" type="passenger1" depart="102.00" departPos="random" departSpeed="0.00" from="-31316108#3" to="23919029#1"/>
+    <trip id="54" type="passenger1" depart="108.00" departPos="random" departSpeed="0.00" from="edge_3_1" to="136827199"/>
+    <trip id="55" type="passenger1" depart="110.00" departPos="random" departSpeed="0.00" from="-31316108#4" to="62022984"/>
+    <trip id="56" type="passenger1" depart="112.00" departPos="random" departSpeed="0.00" from="323130961#2" to="172307882#2"/>
+    <trip id="58" type="passenger1" depart="116.00" departPos="random" departSpeed="0.00" from="398475534#0.42" to="-52760167#1"/>
+    <trip id="60" type="passenger1" depart="120.00" departPos="random" departSpeed="0.00" from="323130965#0" to="-49978384#3"/>
+    <trip id="64" type="passenger1" depart="128.00" departPos="random" departSpeed="0.00" from="203063425#0" to="-gneE132"/>
+    <trip id="66" type="passenger1" depart="132.00" departPos="random" departSpeed="0.00" from="edge_15_1" to="62022984"/>
+    <trip id="67" type="passenger1" depart="134.00" departPos="random" departSpeed="0.00" from="-354200538" to="edge_12_2"/>
+    <trip id="68" type="passenger1" depart="136.00" departPos="random" departSpeed="0.00" from="-23919029#4" to="37897348#1"/>
+    <trip id="69" type="passenger1" depart="138.00" departPos="random" departSpeed="0.00" from="-79577224" to="edge_2_2"/>
+    <trip id="71" type="passenger1" depart="142.00" departPos="random" departSpeed="0.00" from="31316108#2" to="117889472.16"/>
+    <trip id="73" type="passenger1" depart="146.00" departPos="random" departSpeed="0.00" from="24596923#0.35" to="-gneE132"/>
+    <trip id="75" type="passenger1" depart="150.00" departPos="random" departSpeed="0.00" from="-359732195#0" to="-22911947#0"/>
+    <trip id="76" type="passenger1" depart="152.00" departPos="random" departSpeed="0.00" from="backup_11_2" to="-323130961#2"/>
+    <trip id="77" type="passenger1" depart="154.00" departPos="random" departSpeed="0.00" from="27475065#6" to="gneE129"/>
+    <trip id="78" type="passenger1" depart="156.00" departPos="random" departSpeed="0.00" from="31105512#4" to="-24013468#0"/>
+    <trip id="81" type="passenger1" depart="162.00" departPos="random" departSpeed="0.00" from="323130965#1" to="323130963"/>
+    <trip id="82" type="passenger1" depart="164.00" departPos="random" departSpeed="0.00" from="24013466#2" to="-172031905"/>
+    <trip id="85" type="passenger1" depart="170.00" departPos="random" departSpeed="0.00" from="323130959" to="gneE130"/>
+    <trip id="86" type="passenger1" depart="172.00" departPos="random" departSpeed="0.00" from="51582487#9" to="-172307881#1"/>
+    <trip id="87" type="passenger1" depart="174.00" departPos="random" departSpeed="0.00" from="backup_11_2" to="-31105512#0"/>
+    <trip id="91" type="passenger1" depart="182.00" departPos="random" departSpeed="0.00" from="359732195#0" to="52760167#2"/>
+    <trip id="92" type="passenger1" depart="184.00" departPos="random" departSpeed="0.00" from="-172646847#0" to="172646847#0"/>
+    <trip id="93" type="passenger1" depart="186.00" departPos="random" departSpeed="0.00" from="backup_11_2" to="-24013468#0"/>
+    <trip id="96" type="passenger1" depart="192.00" departPos="random" departSpeed="0.00" from="edge_6_2" to="-301053639#1"/>
+    <trip id="98" type="passenger1" depart="196.00" departPos="random" departSpeed="0.00" from="297577036#7" to="gneE120"/>
+    <trip id="99" type="passenger1" depart="198.00" departPos="random" departSpeed="0.00" from="31105512#4" to="-354199320#0"/>
+    <trip id="104" type="passenger1" depart="208.00" departPos="random" departSpeed="0.00" from="-23919029#1" to="edge_3_2"/>
+    <trip id="106" type="passenger1" depart="212.00" departPos="random" departSpeed="0.00" from="31310204#0" to="-172653123#8"/>
+    <trip id="108" type="passenger1" depart="216.00" departPos="random" departSpeed="0.00" from="gneE157" to="-23268145#0"/>
+    <trip id="111" type="passenger1" depart="222.00" departPos="random" departSpeed="0.00" from="-450684229#0" to="29426937"/>
+    <trip id="115" type="passenger1" depart="230.00" departPos="random" departSpeed="0.00" from="79577221#0" to="-52760167#1"/>
+    <trip id="116" type="passenger1" depart="232.00" departPos="random" departSpeed="0.00" from="62022984" to="-22911947#1"/>
+    <trip id="118" type="passenger1" depart="236.00" departPos="random" departSpeed="0.00" from="79577219#4" to="edge_11_1"/>
+    <trip id="119" type="passenger1" depart="238.00" departPos="random" departSpeed="0.00" from="323130961#0" to="13995411#0"/>
+    <trip id="121" type="passenger1" depart="242.00" departPos="random" departSpeed="0.00" from="37897346" to="-31316108#1"/>
+    <trip id="122" type="passenger1" depart="244.00" departPos="random" departSpeed="0.00" from="-23919029#1" to="-31316108#2"/>
+    <trip id="124" type="passenger1" depart="248.00" departPos="random" departSpeed="0.00" from="95793135#5" to="-301053639#1"/>
+    <trip id="126" type="passenger1" depart="252.00" departPos="random" departSpeed="0.00" from="-23919029#3" to="-323130964"/>
+    <trip id="129" type="passenger1" depart="258.00" departPos="random" departSpeed="0.00" from="62022984" to="-24013468#1"/>
+    <trip id="132" type="passenger1" depart="264.00" departPos="random" departSpeed="0.00" from="24013466#0" to="edge_16_2"/>
+    <trip id="133" type="passenger1" depart="266.00" departPos="random" departSpeed="0.00" from="-62022984" to="79577224"/>
+    <trip id="134" type="passenger1" depart="268.00" departPos="random" departSpeed="0.00" from="31310204#1" to="-62022984"/>
+    <trip id="135" type="passenger1" depart="270.00" departPos="random" departSpeed="0.00" from="398475534#0.42" to="-24013468#1"/>
+    <trip id="138" type="passenger1" depart="276.00" departPos="random" departSpeed="0.00" from="172307881#0" to="-173117890#1"/>
+    <trip id="140" type="passenger1" depart="280.00" departPos="random" departSpeed="0.00" from="-20576446#0" to="31316108#4"/>
+    <trip id="143" type="passenger1" depart="286.00" departPos="random" departSpeed="0.00" from="323130959" to="29426937"/>
+    <trip id="145" type="passenger1" depart="290.00" departPos="random" departSpeed="0.00" from="gneE93" to="359732195#0"/>
+    <trip id="146" type="passenger1" depart="292.00" departPos="random" departSpeed="0.00" from="79577221#1" to="52760145"/>
+    <trip id="150" type="passenger1" depart="300.00" departPos="random" departSpeed="0.00" from="edge_15_1" to="-gneE213"/>
+    <trip id="152" type="passenger1" depart="304.00" departPos="random" departSpeed="0.00" from="-323130963" to="edge_15_2"/>
+    <trip id="158" type="passenger1" depart="316.00" departPos="random" departSpeed="0.00" from="398475534#3" to="-31105512#0"/>
+    <trip id="160" type="passenger1" depart="320.00" departPos="random" departSpeed="0.00" from="-354200538" to="-95793135#3"/>
+    <trip id="163" type="passenger1" depart="326.00" departPos="random" departSpeed="0.00" from="25726786#4" to="gneE127"/>
+    <trip id="166" type="passenger1" depart="332.00" departPos="random" departSpeed="0.00" from="edge_18_2" to="49978384#0.7"/>
+    <trip id="167" type="passenger1" depart="334.00" departPos="random" departSpeed="0.00" from="gneE151" to="25391547#2"/>
+    <trip id="168" type="passenger1" depart="336.00" departPos="random" departSpeed="0.00" from="351625607" to="-23268145#0"/>
+    <trip id="170" type="passenger1" depart="340.00" departPos="random" departSpeed="0.00" from="297577036#8" to="-398475534#3"/>
+    <trip id="171" type="passenger1" depart="342.00" departPos="random" departSpeed="0.00" from="gneE105" to="gneE125"/>
+    <trip id="173" type="passenger1" depart="346.00" departPos="random" departSpeed="0.00" from="37897348#0" to="323130963"/>
+    <trip id="175" type="passenger1" depart="350.00" departPos="random" departSpeed="0.00" from="27475065#6" to="-172653132"/>
+    <trip id="177" type="passenger1" depart="354.00" departPos="random" departSpeed="0.00" from="gneE148" to="172646854#1"/>
+    <trip id="179" type="passenger1" depart="358.00" departPos="random" departSpeed="0.00" from="31105512#0" to="-31105512#2"/>
+    <trip id="184" type="passenger1" depart="368.00" departPos="random" departSpeed="0.00" from="edge_10_1" to="23919029#2"/>
+    <trip id="185" type="passenger1" depart="370.00" departPos="random" departSpeed="0.00" from="323130957" to="172307881#0"/>
+    <trip id="186" type="passenger1" depart="372.00" departPos="random" departSpeed="0.00" from="22911947#1" to="49978384#0.7"/>
+    <trip id="189" type="passenger1" depart="378.00" departPos="random" departSpeed="0.00" from="-79577220" to="-359732195#0"/>
+    <trip id="190" type="passenger1" depart="380.00" departPos="random" departSpeed="0.00" from="31105512#0" to="49978384#0"/>
+    <trip id="193" type="passenger1" depart="386.00" departPos="random" departSpeed="0.00" from="172307882#3" to="24013468#1"/>
+    <trip id="195" type="passenger1" depart="390.00" departPos="random" departSpeed="0.00" from="398475534#0.42" to="gneE130"/>
+    <trip id="198" type="passenger1" depart="396.00" departPos="random" departSpeed="0.00" from="13995411#0" to="117889472.16"/>
+    <trip id="201" type="passenger1" depart="402.00" departPos="random" departSpeed="0.00" from="-354199320#0" to="-297577036#8"/>
+    <trip id="202" type="passenger1" depart="404.00" departPos="random" departSpeed="0.00" from="398475534#2" to="398475534#3"/>
+    <trip id="207" type="passenger1" depart="414.00" departPos="random" departSpeed="0.00" from="gneE104" to="79577221#1"/>
+    <trip id="208" type="passenger1" depart="416.00" departPos="random" departSpeed="0.00" from="323130960" to="-79577221#1"/>
+    <trip id="209" type="passenger1" depart="418.00" departPos="random" departSpeed="0.00" from="-49978384#5" to="49978384#0"/>
+    <trip id="210" type="passenger1" depart="420.00" departPos="random" departSpeed="0.00" from="gneE150" to="gneE126"/>
+    <trip id="212" type="passenger1" depart="424.00" departPos="random" departSpeed="0.00" from="79577219#4" to="49978384#0.7"/>
+    <trip id="213" type="passenger1" depart="426.00" departPos="random" departSpeed="0.00" from="-172653130#1" to="31316108#4"/>
+    <trip id="214" type="passenger1" depart="428.00" departPos="random" departSpeed="0.00" from="edge_9_1" to="gneE120"/>
+    <trip id="215" type="passenger1" depart="430.00" departPos="random" departSpeed="0.00" from="175566795" to="13995411#0"/>
+    <trip id="218" type="passenger1" depart="436.00" departPos="random" departSpeed="0.00" from="25721316#1" to="13995411#1"/>
+    <trip id="222" type="passenger1" depart="444.00" departPos="random" departSpeed="0.00" from="-52760167#1" to="-172653123#8"/>
+    <trip id="227" type="passenger1" depart="454.00" departPos="random" departSpeed="0.00" from="31310204#0" to="-398475534#2"/>
+    <trip id="228" type="passenger1" depart="456.00" departPos="random" departSpeed="0.00" from="175566795" to="24922964#0"/>
+    <trip id="229" type="passenger1" depart="458.00" departPos="random" departSpeed="0.00" from="-172646847#0" to="354200538"/>
+    <trip id="230" type="passenger1" depart="460.00" departPos="random" departSpeed="0.00" from="-52760167#1" to="23333061"/>
+    <trip id="232" type="passenger1" depart="464.00" departPos="random" departSpeed="0.00" from="edge_1_1" to="323130961#0"/>
+    <trip id="233" type="passenger1" depart="466.00" departPos="random" departSpeed="0.00" from="edge_12_1" to="gneE129"/>
+    <trip id="240" type="passenger1" depart="480.00" departPos="random" departSpeed="0.00" from="25726786#5" to="172653130#1"/>
+    <trip id="245" type="passenger1" depart="490.00" departPos="random" departSpeed="0.00" from="-337866036#1" to="-37897347#3"/>
+    <trip id="246" type="passenger1" depart="492.00" departPos="random" departSpeed="0.00" from="323130961#3" to="gneE120"/>
+    <trip id="252" type="passenger1" depart="504.00" departPos="random" departSpeed="0.00" from="31310204#1" to="172307881#1"/>
+    <trip id="254" type="passenger1" depart="508.00" departPos="random" departSpeed="0.00" from="gneE104" to="gneE152"/>
+    <trip id="255" type="passenger1" depart="510.00" departPos="random" departSpeed="0.00" from="-175566795" to="-172307881#0"/>
+    <trip id="257" type="passenger1" depart="514.00" departPos="random" departSpeed="0.00" from="-13995411#0" to="29426937"/>
+    <trip id="258" type="passenger1" depart="516.00" departPos="random" departSpeed="0.00" from="edge_3_1" to="24922964#0"/>
+    <trip id="260" type="passenger1" depart="520.00" departPos="random" departSpeed="0.00" from="25721316#1" to="edge_17_2"/>
+    <trip id="264" type="passenger1" depart="528.00" departPos="random" departSpeed="0.00" from="gneE93" to="-37897346"/>
+    <trip id="265" type="passenger1" depart="530.00" departPos="random" departSpeed="0.00" from="-24013484#0.80" to="-398475534#3"/>
+    <trip id="266" type="passenger1" depart="532.00" departPos="random" departSpeed="0.00" from="gneE156" to="-172653131#2"/>
+    <trip id="268" type="passenger1" depart="536.00" departPos="random" departSpeed="0.00" from="-49978384#0" to="-398475534#1.10"/>
+    <trip id="271" type="passenger1" depart="542.00" departPos="random" departSpeed="0.00" from="-24013468#0" to="-290395576"/>
+    <trip id="274" type="passenger1" depart="548.00" departPos="random" departSpeed="0.00" from="gneE162" to="172307881#0"/>
+    <trip id="275" type="passenger1" depart="550.00" departPos="random" departSpeed="0.00" from="172653131#2" to="172646854#1"/>
+    <trip id="276" type="passenger1" depart="552.00" departPos="random" departSpeed="0.00" from="gneE110.143.7" to="edge_9_2"/>
+    <trip id="278" type="passenger1" depart="556.00" departPos="random" departSpeed="0.00" from="gneE104" to="-37897347#3"/>
+    <trip id="280" type="passenger1" depart="560.00" departPos="random" departSpeed="0.00" from="323130961#0" to="edge_8_2"/>
+    <trip id="281" type="passenger1" depart="562.00" departPos="random" departSpeed="0.00" from="25726786#4" to="edge_6_2"/>
+    <trip id="283" type="passenger1" depart="566.00" departPos="random" departSpeed="0.00" from="-79577220" to="gneE96"/>
+    <trip id="286" type="passenger1" depart="572.00" departPos="random" departSpeed="0.00" from="-49978384#0" to="359732195#0"/>
+    <trip id="287" type="passenger1" depart="574.00" departPos="random" departSpeed="0.00" from="gneE151" to="-25726786#6"/>
+    <trip id="289" type="passenger1" depart="578.00" departPos="random" departSpeed="0.00" from="323130964" to="31316108#3"/>
+    <trip id="293" type="passenger1" depart="586.00" departPos="random" departSpeed="0.00" from="gneE151" to="-31105512#2"/>
+    <trip id="294" type="passenger1" depart="588.00" departPos="random" departSpeed="0.00" from="edge_11_1" to="-gneE132"/>
+    <trip id="295" type="passenger1" depart="590.00" departPos="random" departSpeed="0.00" from="299176399" to="-31316108#1"/>
+    <trip id="296" type="passenger1" depart="592.00" departPos="random" departSpeed="0.00" from="323130962" to="-351625607"/>
+    <trip id="297" type="passenger1" depart="594.00" departPos="random" departSpeed="0.00" from="edge_6_2" to="25391547#3"/>
+    <trip id="299" type="passenger1" depart="598.00" departPos="random" departSpeed="0.00" from="gneE104" to="edge_6_2"/>
+    <trip id="300" type="passenger1" depart="600.00" departPos="random" departSpeed="0.00" from="323130965#0" to="-79577219#4"/>
+    <trip id="305" type="passenger1" depart="610.00" departPos="random" departSpeed="0.00" from="37897347#0" to="edge_7_1"/>
+    <trip id="308" type="passenger1" depart="616.00" departPos="random" departSpeed="0.00" from="37897346" to="-172646852#1"/>
+    <trip id="309" type="passenger1" depart="618.00" departPos="random" departSpeed="0.00" from="25721316#1" to="79577221#0"/>
+    <trip id="311" type="passenger1" depart="622.00" departPos="random" departSpeed="0.00" from="323130961#3" to="-23954325#5"/>
+    <trip id="313" type="passenger1" depart="626.00" departPos="random" departSpeed="0.00" from="gneE213" to="23919029#6"/>
+    <trip id="314" type="passenger1" depart="628.00" departPos="random" departSpeed="0.00" from="49978384#0.7" to="gneE126"/>
+    <trip id="315" type="passenger1" depart="630.00" departPos="random" departSpeed="0.00" from="297577036#8" to="172307881#1"/>
+    <trip id="318" type="passenger1" depart="636.00" departPos="random" departSpeed="0.00" from="gneE95" to="-31316108#2"/>
+    <trip id="320" type="passenger1" depart="640.00" departPos="random" departSpeed="0.00" from="edge_7_2" to="49978384#0"/>
+    <trip id="322" type="passenger1" depart="644.00" departPos="random" departSpeed="0.00" from="172031905.68" to="-172653132"/>
+    <trip id="324" type="passenger1" depart="648.00" departPos="random" departSpeed="0.00" from="edge_11_2" to="359732195#0"/>
+    <trip id="325" type="passenger1" depart="650.00" departPos="random" departSpeed="0.00" from="52760167#1" to="23515279"/>
+    <trip id="326" type="passenger1" depart="652.00" departPos="random" departSpeed="0.00" from="323130961#0" to="24013484#0"/>
+    <trip id="327" type="passenger1" depart="654.00" departPos="random" departSpeed="0.00" from="22911947#0" to="-79577220"/>
+    <trip id="328" type="passenger1" depart="656.00" departPos="random" departSpeed="0.00" from="172307882#2" to="49978384#0.7"/>
+    <trip id="329" type="passenger1" depart="658.00" departPos="random" departSpeed="0.00" from="136827200" to="23515274#0"/>
+    <trip id="330" type="passenger1" depart="660.00" departPos="random" departSpeed="0.00" from="-23515281.163" to="gneE120"/>
+    <trip id="331" type="passenger1" depart="662.00" departPos="random" departSpeed="0.00" from="-398475534#1" to="23515279"/>
+    <trip id="333" type="passenger1" depart="666.00" departPos="random" departSpeed="0.00" from="22911947#1" to="gneE106"/>
+    <trip id="334" type="passenger1" depart="668.00" departPos="random" departSpeed="0.00" from="-24922964#0" to="25391547#1"/>
+    <trip id="336" type="passenger1" depart="672.00" departPos="random" departSpeed="0.00" from="323130961#2" to="23515279"/>
+    <trip id="337" type="passenger1" depart="674.00" departPos="random" departSpeed="0.00" from="79577221#1" to="gneE160"/>
+    <trip id="338" type="passenger1" depart="676.00" departPos="random" departSpeed="0.00" from="gneE111" to="37897348#0"/>
+    <trip id="339" type="passenger1" depart="678.00" departPos="random" departSpeed="0.00" from="22911947#1" to="-52775226#2"/>
+    <trip id="340" type="passenger1" depart="680.00" departPos="random" departSpeed="0.00" from="-62022984" to="-398475534#3"/>
+    <trip id="343" type="passenger1" depart="686.00" departPos="random" departSpeed="0.00" from="-172653130#1" to="-25726786#5"/>
+    <trip id="347" type="passenger1" depart="694.00" departPos="random" departSpeed="0.00" from="edge_16_1" to="-290395576"/>
+    <trip id="350" type="passenger1" depart="700.00" departPos="random" departSpeed="0.00" from="gneE90.42" to="-172307881#0"/>
+    <trip id="351" type="passenger1" depart="702.00" departPos="random" departSpeed="0.00" from="gneE157" to="gneE127"/>
+    <trip id="352" type="passenger1" depart="704.00" departPos="random" departSpeed="0.00" from="173117890#1" to="-95793135#3"/>
+    <trip id="357" type="passenger1" depart="714.00" departPos="random" departSpeed="0.00" from="-25391547#1" to="-24013466#2"/>
+    <trip id="359" type="passenger1" depart="718.00" departPos="random" departSpeed="0.00" from="-23919029#6" to="gneE96"/>
+    <trip id="363" type="passenger1" depart="726.00" departPos="random" departSpeed="0.00" from="37897347#0" to="-gneE213"/>
+    <trip id="367" type="passenger1" depart="734.00" departPos="random" departSpeed="0.00" from="backup_11_2" to="edge_15_2"/>
+    <trip id="370" type="passenger1" depart="740.00" departPos="random" departSpeed="0.00" from="172307882#3" to="203063425#0"/>
+    <trip id="374" type="passenger1" depart="748.00" departPos="random" departSpeed="0.00" from="-gneE129" to="-31105512#1"/>
+    <trip id="375" type="passenger1" depart="750.00" departPos="random" departSpeed="0.00" from="22911947#0" to="22911947#1"/>
+    <trip id="376" type="passenger1" depart="752.00" departPos="random" departSpeed="0.00" from="398475540#1" to="-13995411#0"/>
+    <trip id="377" type="passenger1" depart="754.00" departPos="random" departSpeed="0.00" from="-117889472.28" to="edge_16_2"/>
+    <trip id="379" type="passenger1" depart="758.00" departPos="random" departSpeed="0.00" from="323130956.134" to="gneE105"/>
+    <trip id="380" type="passenger1" depart="760.00" departPos="random" departSpeed="0.00" from="-172653130#1" to="-27475065#6.9"/>
+    <trip id="383" type="passenger1" depart="766.00" departPos="random" departSpeed="0.00" from="edge_8_1" to="172653153#1"/>
+    <trip id="384" type="passenger1" depart="768.00" departPos="random" departSpeed="0.00" from="172307882#2" to="-95793135#6"/>
+    <trip id="389" type="passenger1" depart="778.00" departPos="random" departSpeed="0.00" from="398475534#0" to="49978384#0"/>
+    <trip id="391" type="passenger1" depart="782.00" departPos="random" departSpeed="0.00" from="37897347#3" to="-354199320#0"/>
+    <trip id="392" type="passenger1" depart="784.00" departPos="random" departSpeed="0.00" from="edge_13_1" to="-323130961#2"/>
+    <trip id="397" type="passenger1" depart="794.00" departPos="random" departSpeed="0.00" from="31316108#4" to="172653153#1"/>
+    <trip id="399" type="passenger1" depart="798.00" departPos="random" departSpeed="0.00" from="edge_11_2" to="-398475540#1"/>
+    <trip id="400" type="passenger1" depart="800.00" departPos="random" departSpeed="0.00" from="-23919029#1" to="-398475534#3"/>
+    <trip id="401" type="passenger1" depart="802.00" departPos="random" departSpeed="0.00" from="edge_17_1" to="-37897348#1"/>
+    <trip id="402" type="passenger1" depart="804.00" departPos="random" departSpeed="0.00" from="323130961#3" to="-398475534#1"/>
+    <trip id="405" type="passenger1" depart="810.00" departPos="random" departSpeed="0.00" from="-323130961#0" to="edge_1_2"/>
+    <trip id="407" type="passenger1" depart="814.00" departPos="random" departSpeed="0.00" from="323130961#3" to="gneE125"/>
+    <trip id="408" type="passenger1" depart="816.00" departPos="random" departSpeed="0.00" from="-37897348#0" to="-37897347#0"/>
+    <trip id="413" type="passenger1" depart="826.00" departPos="random" departSpeed="0.00" from="-23919029#3" to="-24013468#0"/>
+    <trip id="414" type="passenger1" depart="828.00" departPos="random" departSpeed="0.00" from="173117890#1" to="-22911947#1"/>
+    <trip id="416" type="passenger1" depart="832.00" departPos="random" departSpeed="0.00" from="-gneE130" to="-136827200"/>
+    <trip id="417" type="passenger1" depart="834.00" departPos="random" departSpeed="0.00" from="gneE110.143.7" to="-23268145#0"/>
+    <trip id="418" type="passenger1" depart="836.00" departPos="random" departSpeed="0.00" from="31310204#1" to="117889472.16"/>
+    <trip id="421" type="passenger1" depart="842.00" departPos="random" departSpeed="0.00" from="27475065#6" to="-52760145"/>
+    <trip id="424" type="passenger1" depart="848.00" departPos="random" departSpeed="0.00" from="-29426937" to="203063425#0"/>
+    <trip id="427" type="passenger1" depart="854.00" departPos="random" departSpeed="0.00" from="-172653130#1" to="51582484"/>
+    <trip id="429" type="passenger1" depart="858.00" departPos="random" departSpeed="0.00" from="edge_11_2" to="29426937"/>
+    <trip id="431" type="passenger1" depart="862.00" departPos="random" departSpeed="0.00" from="-337866036#1" to="20576446#0"/>
+    <trip id="433" type="passenger1" depart="866.00" departPos="random" departSpeed="0.00" from="51582487#9" to="edge_4_1"/>
+    <trip id="435" type="passenger1" depart="870.00" departPos="random" departSpeed="0.00" from="edge_7_2" to="37897346"/>
+    <trip id="437" type="passenger1" depart="874.00" departPos="random" departSpeed="0.00" from="-gneE130" to="backup_11_2"/>
+    <trip id="443" type="passenger1" depart="886.00" departPos="random" departSpeed="0.00" from="-354200538" to="32773514#1"/>
+    <trip id="445" type="passenger1" depart="890.00" departPos="random" departSpeed="0.00" from="-323130963" to="edge_6_2"/>
+    <trip id="447" type="passenger1" depart="894.00" departPos="random" departSpeed="0.00" from="gneE97" to="-323130962"/>
+    <trip id="451" type="passenger1" depart="902.00" departPos="random" departSpeed="0.00" from="edge_6_1" to="-172307881#1"/>
+    <trip id="452" type="passenger1" depart="904.00" departPos="random" departSpeed="0.00" from="31316108#4" to="gneE129"/>
+    <trip id="454" type="passenger1" depart="908.00" departPos="random" departSpeed="0.00" from="gneE94" to="edge_3_2"/>
+    <trip id="455" type="passenger1" depart="910.00" departPos="random" departSpeed="0.00" from="gneE157" to="-350181704#2"/>
+    <trip id="459" type="passenger1" depart="918.00" departPos="random" departSpeed="0.00" from="52760145" to="337866036#1"/>
+    <trip id="461" type="passenger1" depart="922.00" departPos="random" departSpeed="0.00" from="edge_12_1" to="backup_11_2"/>
+    <trip id="463" type="passenger1" depart="926.00" departPos="random" departSpeed="0.00" from="31316108#2" to="-37897348#0"/>
+    <trip id="464" type="passenger1" depart="928.00" departPos="random" departSpeed="0.00" from="37897346" to="gneE120"/>
+    <trip id="465" type="passenger1" depart="930.00" departPos="random" departSpeed="0.00" from="24596923#0.35" to="edge_18_1"/>
+    <trip id="466" type="passenger1" depart="932.00" departPos="random" departSpeed="0.00" from="323130961#0" to="398475534#3"/>
+    <trip id="467" type="passenger1" depart="934.00" departPos="random" departSpeed="0.00" from="323130957" to="117889472.16"/>
+    <trip id="470" type="passenger1" depart="940.00" departPos="random" departSpeed="0.00" from="-354200538" to="edge_12_1"/>
+    <trip id="471" type="passenger1" depart="942.00" departPos="random" departSpeed="0.00" from="31105512#4" to="172307882#3"/>
+    <trip id="472" type="passenger1" depart="944.00" departPos="random" departSpeed="0.00" from="-gneE127" to="-31105512#4"/>
+    <trip id="473" type="passenger1" depart="946.00" departPos="random" departSpeed="0.00" from="31316108#4" to="-323130961#0"/>
+    <trip id="474" type="passenger1" depart="948.00" departPos="random" departSpeed="0.00" from="79577219#4" to="-49978384#3"/>
+    <trip id="475" type="passenger1" depart="950.00" departPos="random" departSpeed="0.00" from="-49978384#8" to="-95793135#3"/>
+    <trip id="478" type="passenger1" depart="956.00" departPos="random" departSpeed="0.00" from="51582487#9" to="edge_11_1"/>
+    <trip id="479" type="passenger1" depart="958.00" departPos="random" departSpeed="0.00" from="-49978384#1" to="-351625607"/>
+    <trip id="480" type="passenger1" depart="960.00" departPos="random" departSpeed="0.00" from="-37897348#0" to="-323130961#3"/>
+    <trip id="483" type="passenger1" depart="966.00" departPos="random" departSpeed="0.00" from="gneE162" to="37897348#1"/>
+    <trip id="484" type="passenger1" depart="968.00" departPos="random" departSpeed="0.00" from="gneE151" to="-24596923#0"/>
+    <trip id="489" type="passenger1" depart="978.00" departPos="random" departSpeed="0.00" from="37897347#2" to="-203063425#0"/>
+    <trip id="491" type="passenger1" depart="982.00" departPos="random" departSpeed="0.00" from="359732195#0" to="20576446#0"/>
+    <trip id="495" type="passenger1" depart="990.00" departPos="random" departSpeed="0.00" from="299176399" to="gneE97"/>
+    <trip id="499" type="passenger1" depart="998.00" departPos="random" departSpeed="0.00" from="gneE164" to="-290395576"/>
+</routes>
