@@ -1,3 +1,18 @@
-<additional>
-    <vType id="standardCar" maxSpeed="27" />
-</additional>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Luxembourg SUMO Traffic (LuST) Scenario This project is licensed under the terms of the MIT license. Author: Lara CODECA [codeca@gmail.com] -->
+
+<colin>
+    <vTypeDistribution id="private">
+        <vType id="passenger1" guiShape="passenger/sedan" speedDev="0.1" probability=".40" maxSpeed="70" minGap="1.5" length="5.0" sigma="0.5" decel="4.5" accel="2.6" color=".8,.2,.2" vClass="passenger"/>
+        <vType id="passenger2a" guiShape="passenger/hatchback" speedDev="0.1" probability=".20" maxSpeed="50" minGap="1.5" length="4.5" sigma="0.5" decel="4.5" accel="3.0" color=".8,.8,.8" vClass="passenger"/>
+        <vType id="passenger2b" guiShape="passenger/hatchback" speedDev="0.1" probability=".20" maxSpeed="50" minGap="1.0" length="4.5" sigma="0.5" decel="4.5" accel="2.8" color=".2,.2,.8" vClass="passenger"/>
+        <vType id="passenger3" guiShape="passenger/wagon" speedDev="0.1" probability=".10" maxSpeed="70" minGap="1.5" length="6.0" sigma="0.5" decel="4.5" accel="2.7" color=".3,.3,.3" vClass="passenger"/>
+        <vType id="passenger4" guiShape="passenger/van" speedDev="0.1" probability=".05" maxSpeed="30" minGap="1.5" length="5.5" sigma="0.5" decel="4.5" accel="2.4" color=".9,.9,.9" vClass="passenger"/>
+        <vType id="passenger5" guiShape="delivery" speedDev="0.1" probability=".05" maxSpeed="30" minGap="2.5" length="7.0" sigma="0.5" decel="4.5" accel="2.3" color=".8,.8,.0" vClass="passenger"/>
+    </vTypeDistribution>
+    <vType id="bus" guiShape="bus" speedDev="0.1" maxSpeed="30" minGap="3" length="12.0" sigma="0.5" decel="4.5" accel="2.6" vClass="bus">
+        <param value="false" key="has.rerouting.device"/>
+    </vType>
+
+</colin>
